@@ -1,5 +1,7 @@
 ### 骨架屏使用
 
+#### Demo 地址 http://www.perfecting.top/
+
 - 引入注册组件
 
 ```
