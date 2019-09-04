@@ -1,0 +1,139 @@
+.skeleton-animation {
+  animation: skeleton-blink 1.2s ease-in-out infinite;
+}
+
+.skeleton-avatar-round {
+  border-radius: 100%;
+}
+
+@keyframes skeleton-blink {
+  50% {
+    opacity: 0.6;
+  }
+
+}
+
+.skeleton-box {
+  display: flex;
+  /* iconGrid */
+
+  /* card */
+
+  /* table */
+
+  /* Banner */
+
+}
+
+.skeleton-box .skeleton-avatar {
+  width: 50px;
+  height: 50px;
+  background: #eeeeee;
+}
+
+.skeleton-box .skeleton-content {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.skeleton-box .skeleton-content .skeleton-row {
+  height: 15px;
+  width: 100%;
+  background: #eeeeee;
+  margin-top: 10px;
+}
+
+.skeleton-box .skeleton-content .skeleton-row:first-child {
+  margin: 0;
+}
+
+.skeleton-box .skeleton-grid {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.skeleton-box .skeleton-grid .skeleton-grid-row {
+  display: flex;
+  width: 100%;
+}
+
+.skeleton-box .skeleton-grid .skeleton-grid-row .skeleton-grid-col {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.skeleton-box .skeleton-grid .skeleton-grid-row .skeleton-grid-col .skeleton-grid-icon {
+  width: 80%;
+  padding-top: 80%;
+  background: #eeeeee;
+  margin-bottom: 10px;
+}
+
+.skeleton-box .skeleton-grid .skeleton-grid-row .skeleton-grid-col .skeleton-grid-desc {
+  width: 100%;
+  height: 15px;
+  background: #eeeeee;
+}
+
+.skeleton-box .skeleton-card .skeleton-card-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 15px;
+}
+
+.skeleton-box .skeleton-card .skeleton-card-row .skeleton-card-content {
+  background: #eeeeee;
+  width: 100%;
+  height: 100px;
+}
+
+.skeleton-box .skeleton-card .skeleton-card-row .skeleton-card-desc {
+  background: #eeeeee;
+  width: 100%;
+  height: 15px;
+  margin-top: 10px;
+}
+
+.skeleton-box .skeleton-table .skeleton-table-row {
+  display: flex;
+}
+
+.skeleton-box .skeleton-table .skeleton-table-row .skeleton-table-col {
+  width: 100%;
+  background: #eeeeee;
+  height: 30px;
+  width: 100%;
+  margin: 2px;
+}
+
+.skeleton-box .skeleton-banner .skeleton-banner-row {
+  background: #eeeeee;
+  height: 100px;
+  width: 100%;
+  position: relative;
+  margin-top: 10px;
+}
+
+.skeleton-box .skeleton-banner .skeleton-banner-row .skeleton-banner-icon {
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.skeleton-box .skeleton-banner .skeleton-banner-row .skeleton-banner-icon .skeleton-banner-icon-option {
+  width: 20px;
+  height: 20px;
+  margin: 0px 5px;
+  background: #fff;
+  border-radius: 100%;
+}
